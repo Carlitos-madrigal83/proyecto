@@ -1,0 +1,9 @@
+        @media (max-width: 640px) {
+            aside {
+                width: 100%;
+            }
+            section img {
+                display: block;
+                width: 100%;
+            }
+        }

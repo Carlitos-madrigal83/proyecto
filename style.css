@@ -1,0 +1,178 @@
+/*****************************
+**********  BODY  ************
+*****************************/
+
+body {
+    background-color: #009a00;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+
+/*****************************
+*********  HEADER  ***********
+*****************************/
+
+header {
+    border-radius: 20px;
+    background-color: #F7931E;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+/*****************************
+***********  NAV  ************
+*****************************/
+
+nav li {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+ul.tablas {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 60px;
+}
+
+ul.tablas li {
+    background-color: white;
+    float: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+nav img {
+    width: 13%;
+    height: 13%;
+}
+
+
+/*****************************
+**********  ASIDE  ***********
+*****************************/
+
+aside {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.banner {
+    width: 46%;
+    height: 45%;
+}
+
+.ofertas {
+    width: 25%;
+    height: 45%;
+}
+
+
+/*****************************
+*********  SECTION  **********
+*****************************/
+
+section {
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+section img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/******************************
+*********  ARTICLE  **********
+******************************/
+
+article {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*****************************
+*********  FOOTER  ***********
+*****************************/
+
+footer {
+    text-align: center;
+}
+
+
+/*
+@media screen and (min-width: 1000px) {
+    .maestro div section {
+        min-width: calc(25% - 40px);
+    }
+}
+
+article img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+
+#featured {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.maestro div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.maestro div section {
+    background-color: red;
+    border-radius: 10px;
+    min-width: calc(50% - 40px);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maestro h2 {
+    text-align: center;
+}
+*/
