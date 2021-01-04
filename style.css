@@ -2,20 +2,26 @@
 **********  BODY  ************
 *****************************/
 
+html {
+    background-color: #f5b369;
+}
+
 body {
-    background-color: #009a00;
-    font-family: 'Roboto Condensed', sans-serif;
+    width: 90%;
     position: relative;
+    background-color: rgb(168, 235, 195);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
 }
 
 
 /*****************************
-*********  HEADER  ***********
+*********  HEADER  ***********#009a00
 *****************************/
 
 header {
     border-radius: 20px;
-    background-color: #F7931E;
+    background-color: #f5b369;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -24,7 +30,7 @@ header {
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -79,6 +85,7 @@ aside {
 .ofertas {
     width: 25%;
     height: 45%;
+    border-radius: 10px;
 }
 
 
@@ -89,15 +96,18 @@ aside {
 section {
     position: relative;
     display: inline-block;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    color: blue;
 }
 
 section img {
-    height: 300px;
-    width: 300px;
+    position: relative;
+    display: inline-block;
+    height: 275px;
+    width: 275px;
+    border-radius: 10px;
 }
 
 
@@ -126,54 +136,35 @@ div {
 
 footer {
     text-align: center;
+    background-color: #f5b369;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+fieldset {
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+legend {
+    color: blue;
 }
 
 
-/*
-@media screen and (min-width: 1000px) {
-    .maestro div section {
-        min-width: calc(25% - 40px);
+/*****************************
+*****  VERSION MOBILE  *******
+*****************************/
+
+@media screen and (max-width:480 px) {
+    body {
+        width: 100%;
+    }
+    article {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        width: 100%;
     }
 }
-
-article img {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 40%;
-    height: 40%;
-}
-
-#featured {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    position: relative;
-    display: inline-block;
-}
-
-.maestro div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.maestro div section {
-    background-color: red;
-    border-radius: 10px;
-    min-width: calc(50% - 40px);
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.maestro h2 {
-    text-align: center;
-}
-*/
