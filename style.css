@@ -73,6 +73,7 @@ aside {
 .banner {
     width: 46%;
     height: 45%;
+    border-radius: 10px;
 }
 
 .ofertas {
