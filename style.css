@@ -2,16 +2,11 @@
 **********  BODY  ************
 *****************************/
 
-html {
-    background-color: #f5b369;
-}
-
 body {
-    width: 90%;
+    width: 100%;
     position: relative;
     background-color: rgb(168, 235, 195);
     font-family: 'Roboto Condensed', sans-serif;
-    margin: auto;
 }
 
 
@@ -26,6 +21,11 @@ header {
     justify-content: center;
     margin: 20px;
     padding: 5px;
+    min-width: 350px;
+}
+
+header>img {
+    max-width: 100%;
 }
 
 h1 {
@@ -80,6 +80,7 @@ aside {
     width: 46%;
     height: 45%;
     border-radius: 10px;
+    min-width: 350px;
 }
 
 .ofertas {
@@ -139,10 +140,12 @@ footer {
     background-color: #f5b369;
     padding: 20px;
     border-radius: 20px;
+    min-width: 350px;
+    margin: auto;
 }
 
 fieldset {
-    width: 500px;
+    max-width: 500px;
     height: auto;
     margin: auto;
 }
@@ -156,7 +159,7 @@ legend {
 *****  VERSION MOBILE  *******
 *****************************/
 
-@media screen and (max-width:480 px) {
+@media screen and (max-width:480px) {
     body {
         width: 100%;
     }
@@ -166,5 +169,8 @@ legend {
     }
     aside {
         width: 100%;
+    }
+    li {
+        margin-top: 10px;
     }
 }
